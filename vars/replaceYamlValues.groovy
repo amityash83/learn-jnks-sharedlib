@@ -1,5 +1,5 @@
 def call() {
-    def targetFile = "${Jenkins.instance.getRootDir()}/jenkins-shared-library/resources/target.yaml"
+    def targetFile = "${Jenkins.instance.getRootDir()}/resources/target.yaml"
     def configFile = readYamlConfig()
     def targetConfig = readYaml file: targetFile
 
