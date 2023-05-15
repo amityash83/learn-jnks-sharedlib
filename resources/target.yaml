@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-config
+data:
+  database-host: localhost
+  database-port: "5432"
+  database-username: admin
+  database-password: adminpassword
